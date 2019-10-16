@@ -13,6 +13,12 @@
 		EC32F4682356BCB700ACF21E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC32F4672356BCB700ACF21E /* Assets.xcassets */; };
 		EC32F46B2356BCB700ACF21E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC32F4692356BCB700ACF21E /* LaunchScreen.storyboard */; };
 		EC32F46E2356BCB700ACF21E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC32F46D2356BCB700ACF21E /* main.m */; };
+		EC32F4802356BD1200ACF21E /* PictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC32F4772356BD1100ACF21E /* PictureViewController.m */; };
+		EC32F4812356BD1200ACF21E /* VoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC32F4782356BD1100ACF21E /* VoiceViewController.m */; };
+		EC32F4822356BD1200ACF21E /* AllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC32F47C2356BD1200ACF21E /* AllViewController.m */; };
+		EC32F4832356BD1200ACF21E /* TitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EC32F47D2356BD1200ACF21E /* TitleButton.m */; };
+		EC32F4842356BD1200ACF21E /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC32F47E2356BD1200ACF21E /* VideoViewController.m */; };
+		EC32F4852356BD1200ACF21E /* WordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC32F47F2356BD1200ACF21E /* WordViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,18 @@
 		EC32F46A2356BCB700ACF21E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC32F46C2356BCB700ACF21E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC32F46D2356BCB700ACF21E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC32F4742356BD1100ACF21E /* PictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureViewController.h; sourceTree = "<group>"; };
+		EC32F4752356BD1100ACF21E /* WordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordViewController.h; sourceTree = "<group>"; };
+		EC32F4762356BD1100ACF21E /* TitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleButton.h; sourceTree = "<group>"; };
+		EC32F4772356BD1100ACF21E /* PictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureViewController.m; sourceTree = "<group>"; };
+		EC32F4782356BD1100ACF21E /* VoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceViewController.m; sourceTree = "<group>"; };
+		EC32F4792356BD1100ACF21E /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		EC32F47A2356BD1100ACF21E /* AllViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllViewController.h; sourceTree = "<group>"; };
+		EC32F47B2356BD1100ACF21E /* VoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceViewController.h; sourceTree = "<group>"; };
+		EC32F47C2356BD1200ACF21E /* AllViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllViewController.m; sourceTree = "<group>"; };
+		EC32F47D2356BD1200ACF21E /* TitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleButton.m; sourceTree = "<group>"; };
+		EC32F47E2356BD1200ACF21E /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		EC32F47F2356BD1200ACF21E /* WordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,18 @@
 		EC32F45D2356BCB600ACF21E /* 联动 */ = {
 			isa = PBXGroup;
 			children = (
+				EC32F47A2356BD1100ACF21E /* AllViewController.h */,
+				EC32F47C2356BD1200ACF21E /* AllViewController.m */,
+				EC32F4742356BD1100ACF21E /* PictureViewController.h */,
+				EC32F4772356BD1100ACF21E /* PictureViewController.m */,
+				EC32F4762356BD1100ACF21E /* TitleButton.h */,
+				EC32F47D2356BD1200ACF21E /* TitleButton.m */,
+				EC32F4792356BD1100ACF21E /* VideoViewController.h */,
+				EC32F47E2356BD1200ACF21E /* VideoViewController.m */,
+				EC32F47B2356BD1100ACF21E /* VoiceViewController.h */,
+				EC32F4782356BD1100ACF21E /* VoiceViewController.m */,
+				EC32F4752356BD1100ACF21E /* WordViewController.h */,
+				EC32F47F2356BD1200ACF21E /* WordViewController.m */,
 				EC32F45E2356BCB600ACF21E /* AppDelegate.h */,
 				EC32F45F2356BCB600ACF21E /* AppDelegate.m */,
 				EC32F4612356BCB600ACF21E /* ViewController.h */,
@@ -142,8 +172,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC32F4632356BCB600ACF21E /* ViewController.m in Sources */,
+				EC32F4832356BD1200ACF21E /* TitleButton.m in Sources */,
+				EC32F4852356BD1200ACF21E /* WordViewController.m in Sources */,
+				EC32F4802356BD1200ACF21E /* PictureViewController.m in Sources */,
 				EC32F46E2356BCB700ACF21E /* main.m in Sources */,
 				EC32F4602356BCB600ACF21E /* AppDelegate.m in Sources */,
+				EC32F4822356BD1200ACF21E /* AllViewController.m in Sources */,
+				EC32F4842356BD1200ACF21E /* VideoViewController.m in Sources */,
+				EC32F4812356BD1200ACF21E /* VoiceViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
